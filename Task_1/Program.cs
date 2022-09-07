@@ -4,9 +4,9 @@
 // M = 4; N = 8. -> 30
 
 Console.Write(("Введите число M: "));
-int M = int.Parse(Console.ReadLine());
+int M = Convert.ToInt32(Console.ReadLine());
 Console.Write(("Введите число N: "));
-int N = int.Parse(Console.ReadLine());
+int N = Convert.ToInt32(Console.ReadLine());
 
 
 void SumNumbers(int M, int N, int sum)
